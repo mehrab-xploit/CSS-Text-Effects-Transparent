@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_text_effects_transfarent</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .box {
+            height: 100vh;
+            background: url(bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 22px;
+            text-align: center;
+            font-size: 15em;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+            mix-blend-mode: overlay;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 5);
+            background: rgba(0, 0, 0, .5);
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>
+            Mehrab Xploit
+        </h1>
+    </div>
+</body>
+
+</html>
